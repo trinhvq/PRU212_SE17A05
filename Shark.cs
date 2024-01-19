@@ -64,6 +64,8 @@ public class Shark : MonoBehaviour
                 scale.x = -1.0f * Mathf.Abs(scale.x);
                 transform.localScale = scale;
             }
+
+
             
 
         }
