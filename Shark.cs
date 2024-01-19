@@ -8,7 +8,7 @@ public class Shark : MonoBehaviour
     Vector3 mouseWorldPos;
     float speedX = 0f, speedY = 0f;
     Vector3 position;
-    int isRight = 0;
+    //int isRight = 0;
 
     #endregion
     // Start is called before the first frame update

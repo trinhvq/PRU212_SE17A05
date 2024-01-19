@@ -36,7 +36,7 @@ public class TeddySpawner : MonoBehaviour
         spawnerTime += Time.deltaTime;
         if(spawnerTime > 5f)
         {
-            print(spawnerTime);
+            //print(spawnerTime);
             Vector3 position = new Vector3(3, 0, 0);
             Instantiate(yellowTeddyPrefab, position, Quaternion.identity);
             numSpawned += 1;
